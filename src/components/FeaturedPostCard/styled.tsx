@@ -22,7 +22,7 @@ export const PostCard = styled(Link)`
   padding-right: 15px;
 
   &:hover {
-    background-color: ${({ theme }) => theme.color.gray10};
+    background-color: ${({ theme }) => theme.color.surface};
     @media ${MOBILE_MEDIA_QUERY} {
       background-color: transparent;
     }
@@ -31,14 +31,14 @@ export const PostCard = styled(Link)`
   @media ${MOBILE_MEDIA_QUERY} {
     min-height: 50px;
     &:active {
-      background-color: ${({ theme }) => theme.color.gray10};
+      background-color: ${({ theme }) => theme.color.surface};
     }
   }
 `;
 
 export const Emoji = styled.div`
   font-size: 40px;
-  background-color: ${({ theme }) => theme.color.gray10};
+  background-color: ${({ theme }) => theme.color.surface};
   border-radius: 50%;
   width: 60px;
   min-width: 60px;
@@ -76,7 +76,7 @@ export const Title = styled.div`
 
 export const Date = styled.div`
   font-size: 13px;
-  color: ${({ theme }) => theme.color.gray60};
+  color: ${({ theme }) => theme.color.onSurfaceVariant};
   font-family: GmarketSansLight;
   margin-top: 3px;
 

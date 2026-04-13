@@ -28,13 +28,13 @@ const About: React.FC<AboutProps> = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Seo title='개발자 단민 | About' />
+      <Seo title='개발자 솔로그 | About' />
       <MainBanner author={author} />
       <Bio bio={author.bio} />
 
-      {Object.keys(stamps).map((key) => (
+      {/* {Object.keys(stamps).map((key) => (
         <Timestamps key={key} title={key} timestamps={stamps[key]} />
-      ))}
+      ))} */}
     </Layout>
   );
 };
@@ -57,12 +57,6 @@ export const pageQuery = graphql`
           }
           social {
             github
-            linkedIn
-            resume
-          }
-          dropdown {
-            velog
-            tistory
           }
         }
         timestamps {

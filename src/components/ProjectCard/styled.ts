@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 24px;
-  background-color: ${({ theme }) => theme.color.gray10};
+  background-color: ${({ theme }) => theme.color.surface};
   width: 381px;
   height: 317px;
 
@@ -76,8 +76,8 @@ export const TechList = styled.div`
 
 export const Tech = styled.div`
   font-size: 10px;
-  color: ${({ theme }) => theme.color.white100};
-  background-color: ${({ theme }) => theme.color.black60};
+  color: ${({ theme }) => theme.color.background};
+  background-color: ${({ theme }) => theme.color.secondary};
   padding: 3px 8px;
   border-radius: 5px;
   margin-top: -10px;

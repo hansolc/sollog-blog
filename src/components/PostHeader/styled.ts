@@ -9,7 +9,7 @@ export const Header = styled.header`
   flex-direction: column;
   width: 100%;
   padding-bottom: 40px;
-  border-bottom: 1px solid ${({ theme }) => theme.color.gray20};
+  border-bottom: 1px solid ${({ theme }) => theme.color.surfaceVariant};
   margin: 40px 0;
   word-break: keep-all;
 `;
@@ -22,7 +22,7 @@ export const Emoji = styled.div`
 export const Info = styled.div`
   display: flex;
   font-size: 15px;
-  color: ${({ theme }) => theme.color.gray80};
+  color: ${({ theme }) => theme.color.tertiary};
   font-family: GmarketSansLight;
 `;
 
@@ -33,10 +33,10 @@ export const Categories = styled.div`
 
 export const Category = styled(Link)`
   margin-right: 4px;
-  color: ${({ theme }) => theme.color.gray60};
+  color: ${({ theme }) => theme.color.onSurfaceVariant};
   ${({ theme }) => hoverUnderline(theme)};
   &:after {
-    background-color: ${({ theme }) => theme.color.gray60};
+    background-color: ${({ theme }) => theme.color.onSurfaceVariant};
   }
 `;
 

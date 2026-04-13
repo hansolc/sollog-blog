@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   position: fixed;
   bottom: 0;
   z-index: -1;
-  background-color: ${({ theme }) => theme.color.gray10};
+  background-color: ${({ theme }) => theme.color.surface};
   font-family: GmarketSansLight;
 
   @media ${MOBILE_MEDIA_QUERY} {
@@ -28,5 +28,5 @@ export const Footer = styled.p`
 `;
 
 export const Link = styled.a`
-  border-bottom: 1px solid ${({ theme }) => theme.color.black100};
+  border-bottom: 1px solid ${({ theme }) => theme.color.primary};
 `;

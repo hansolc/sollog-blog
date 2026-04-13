@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  margin: 130px 0;
+  margin: 80px 0;
   font-family: GmarketSansLight;
 
   .react-rotating-text-cursor {
@@ -56,6 +56,7 @@ export const IntroWrapper = styled.div`
   position: relative;
   font-size: 40px;
   line-height: 1.2;
+  align-items: center;
 
   @media ${MOBILE_MEDIA_QUERY} {
     flex-direction: column;
@@ -113,13 +114,13 @@ export const SocialWrapper = styled.div`
 `;
 
 export const SocialButton = styled.a`
-  color: ${({ theme }) => theme.color.black100};
+  color: ${({ theme }) => theme.color.primary};
   font-size: 18px;
   ${({ theme }) => hoverUnderline(theme)};
 `;
 
 export const DropdownButton = styled.div`
-  color: ${({ theme }) => theme.color.black100};
+  color: ${({ theme }) => theme.color.primary};
   font-size: 18px;
   position: absolute;
   height: 100px;

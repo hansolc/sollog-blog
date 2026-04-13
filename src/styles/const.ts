@@ -7,28 +7,28 @@ export const MOBILE_MEDIA_QUERY = `screen and (max-width: ${MOBILE_MAX_WIDTH}px)
 
 export const lightTheme: Theme = {
   color: {
-    black100: '#0F1010',
-    black60: '#2C2D2E',
-    black40: '#3C3D40',
-    gray80: '#808388',
-    gray60: '#989BA0',
-    gray40: '#C0C5C9',
-    gray20: '#EEEFF1',
-    gray10: '#F7F8FA',
-    white100: '#FFFFFF',
+    primary: '#00687b',
+    secondary: '#4b6269',
+    onBackground: '#171c1e',
+    tertiary: '#575c7e',
+    onSurfaceVariant: '#3f484b',
+    outline: '#70797c',
+    surfaceVariant: '#dbe4e7',
+    surface: '#f5fafc',
+    background: '#f5fafc',
   },
 };
 export const darkTheme: Theme = {
   color: {
-    black100: '#e6e6e6',
-    black60: '#F7F8FA',
-    black40: '#EEEFF1',
-    gray80: '#b9bbc5',
-    gray60: '#8e8f97',
-    gray40: '#626368',
-    gray20: '#3C3D40',
-    gray10: '#2C2D2E',
-    white100: '#232326',
+    primary: '#85d2e7',
+    secondary: '#b2cbd3',
+    onBackground: '#dee3e5',
+    tertiary: '#bfc4eb',
+    onSurfaceVariant: '#bfc8cb',
+    outline: '#899295',
+    surfaceVariant: '#3f484b',
+    surface: '#0f1415',
+    background: '#0f1415',
   },
 };
 
@@ -44,7 +44,7 @@ export const hoverUnderline = (theme: Theme) => css`
     height: 1px;
     bottom: -1px;
     left: 0;
-    background-color: ${theme.color.black100};
+    background-color: ${theme.color.primary};
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }

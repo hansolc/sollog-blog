@@ -11,7 +11,8 @@ export const Wrapper = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  background-color: ${({ theme }) => theme.color.white100};
+  background-color: ${({ theme }) => theme.color.background};
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   z-index: 100;
 
   @media ${MOBILE_MEDIA_QUERY} {
@@ -29,7 +30,7 @@ export const Header = styled.div`
 
   .mobile-logo {
     @media ${MOBILE_MEDIA_QUERY} {
-      background-color: ${({ theme }) => theme.color.black100};
+      background-color: ${({ theme }) => theme.color.primary};
       width: 25px;
       height: 25px;
       border-radius: 50%;
@@ -39,7 +40,7 @@ export const Header = styled.div`
       font-family: Montserrat;
       font-weight: 800;
       a {
-        color: ${({ theme }) => theme.color.white100};
+        color: ${({ theme }) => theme.color.background};
       }
     }
   }

@@ -13,10 +13,10 @@ export const Title = styled.div<{ fill: 'true' | 'false' }>`
   font-size: 20px;
   width: fit-content;
   padding: 10px;
-  background-color: ${({ theme, fill }) => (fill === 'true' ? theme.color.black40 : theme.color.white100)};
-  color: ${({ theme, fill }) => (fill === 'true' ? theme.color.white100 : theme.color.black40)};
+  background-color: ${({ theme, fill }) => (fill === 'true' ? theme.color.onBackground : theme.color.background)};
+  color: ${({ theme, fill }) => (fill === 'true' ? theme.color.background : theme.color.onBackground)};
   margin-bottom: 25px;
-  border: 1px solid ${({ theme, fill }) => (fill === 'true' ? theme.color.white100 : theme.color.black40)};
+  border: 1px solid ${({ theme, fill }) => (fill === 'true' ? theme.color.background : theme.color.onBackground)};
 
   @media ${MOBILE_MEDIA_QUERY} {
     font-size: 17px;

@@ -21,14 +21,14 @@ export const PostCard = styled(Link)`
   margin-bottom: 15px;
   cursor: pointer;
   &:hover {
-    background-color: ${({ theme }) => theme.color.gray10};
+    background-color: ${({ theme }) => theme.color.surface};
     @media ${MOBILE_MEDIA_QUERY} {
       background-color: transparent;
     }
   }
   @media ${MOBILE_MEDIA_QUERY} {
     &:active {
-      background-color: ${({ theme }) => theme.color.gray10};
+      background-color: ${({ theme }) => theme.color.surface};
     }
   }
 `;
@@ -58,7 +58,7 @@ export const Info = styled.div`
   font-size: 13px;
   width: 100%;
   padding: 0 15px;
-  color: ${({ theme }) => theme.color.gray60};
+  color: ${({ theme }) => theme.color.onSurfaceVariant};
   font-family: GmarketSansLight;
   position: absolute;
   bottom: 25px;
@@ -72,9 +72,9 @@ export const Categories = styled.div`
 
 export const Category = styled(Link)`
   margin-left: 4px;
-  color: ${({ theme }) => theme.color.gray60};
+  color: ${({ theme }) => theme.color.onSurfaceVariant};
   ${({ theme }) => hoverUnderline(theme)};
   &:after {
-    background-color: ${({ theme }) => theme.color.gray60};
+    background-color: ${({ theme }) => theme.color.onSurfaceVariant};
   }
 `;

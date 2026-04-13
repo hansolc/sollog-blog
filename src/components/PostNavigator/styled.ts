@@ -12,7 +12,7 @@ export const PostCard = styled(Link)`
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: ${({ theme }) => theme.color.gray10};
+  background-color: ${({ theme }) => theme.color.surface};
   border-radius: 6px;
   padding: 15px;
   height: 105px;
@@ -20,7 +20,7 @@ export const PostCard = styled(Link)`
   cursor: pointer;
 
   &:hover {
-    background-color: ${({ theme }) => theme.color.gray20};
+    background-color: ${({ theme }) => theme.color.surfaceVariant};
     .title {
       text-decoration: underline;
     }
@@ -36,7 +36,7 @@ export const PostCard = styled(Link)`
 `;
 
 export const Direction = styled.div`
-  color: ${({ theme }) => theme.color.gray60};
+  color: ${({ theme }) => theme.color.onSurfaceVariant};
   margin-bottom: 10px;
 `;
 

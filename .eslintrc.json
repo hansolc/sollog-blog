@@ -12,6 +12,12 @@
   "rules": {
     "@typescript-eslint/no-explicit-any": 1,
     "simple-import-sort/imports": 1,
-    "simple-import-sort/exports": 1
+    "simple-import-sort/exports": 1,
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }

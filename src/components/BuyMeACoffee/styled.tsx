@@ -92,7 +92,7 @@ export const Text = styled.div`
 export const ModalBackground = styled.div`
   width: 100%;
   height: 100%;
-  background: ${({ theme }) => theme.color.white100}, 0.4;
+  background: ${({ theme }) => theme.color.background}, 0.4;
   position: fixed;
   top: 0;
   left: 0;
@@ -105,7 +105,7 @@ export const ModalBackground = styled.div`
 `;
 
 export const Modal = styled.div`
-  background-color: ${({ theme }) => theme.color.white100};
+  background-color: ${({ theme }) => theme.color.background};
   border-radius: 15px;
   box-shadow: 0 5px 30px 0 rgb(0 0 0 / 0.2);
   animation: ${fadeIn} 0.5s ease both;

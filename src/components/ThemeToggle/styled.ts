@@ -8,7 +8,7 @@ export const Wrapper = styled.div<{ isDark: boolean }>`
   z-index: 1000;
   top: 0;
   right: 0;
-  background-color: ${({ theme }) => theme.color.black40};
+  background-color: ${({ theme }) => theme.color.onBackground};
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -19,7 +19,7 @@ export const Wrapper = styled.div<{ isDark: boolean }>`
   right: 20px;
 
   .theme-icon {
-    color: ${({ theme }) => theme.color.white100};
+    color: ${({ theme }) => theme.color.background};
     width: 20px;
     height: 20px;
   }

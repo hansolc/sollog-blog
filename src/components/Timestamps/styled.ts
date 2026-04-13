@@ -28,7 +28,7 @@ export const Timestamp = styled.div`
   width: 100%;
   margin-left: 5px;
   padding: 10px 0;
-  border-left: 1px solid ${({ theme }) => theme.color.gray40};
+  border-left: 1px solid ${({ theme }) => theme.color.outline};
 
   &:first-of-type {
     padding-top: 7px;
@@ -45,10 +45,10 @@ export const Timestamp = styled.div`
     align-self: center;
     width: 5px;
     height: 5px;
-    background-color: ${({ theme }) => theme.color.white100};
+    background-color: ${({ theme }) => theme.color.background};
     border-radius: 5px;
     transform: translatex(-50%);
-    border: 1px solid ${({ theme }) => theme.color.gray40};
+    border: 1px solid ${({ theme }) => theme.color.outline};
   }
 `;
 
@@ -56,7 +56,7 @@ export const Date = styled.div`
   margin-left: 5px;
   margin-right: 5px;
   width: 200px;
-  color: ${({ theme }) => theme.color.gray80};
+  color: ${({ theme }) => theme.color.tertiary};
   align-self: center;
 
   @media ${MOBILE_MEDIA_QUERY} {

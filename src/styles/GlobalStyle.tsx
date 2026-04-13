@@ -15,11 +15,11 @@ const style = (theme: Theme) => css`
     height: 100%;
     overflow-y: scroll;
     font-size: 14px;
-    color: ${theme.color.black100};
-    background-color: ${theme.color.gray10};
+    color: ${theme.color.primary};
+    background-color: ${theme.color.surface};
 
     a {
-      color: ${theme.color.black100};
+      color: ${theme.color.primary};
       text-decoration: none;
     }
   }
