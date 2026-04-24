@@ -1,5 +1,5 @@
 ---
-emoji: 👩🏻‍💻
+emoji: 💡
 title: 'Next.js App Router에서 TanStack Query SSR 제대로 쓰기'
 date: '2026-04-24'
 categories: featured-skills
