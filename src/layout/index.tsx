@@ -40,7 +40,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
           {location && <Header location={location} title={title} />}
           <S.Content>{children}</S.Content>
         </S.ContentWrapper>
-        {/* <Footer /> */}
+        <Footer />
       </S.Wrapper>
     </ThemeProvider>
   );
