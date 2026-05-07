@@ -1,7 +1,7 @@
 ---
 emoji: 🧰
 title: 전역상태 관리 RTK(Redux Toolkit)
-date: 2026-05-03
+date: 2024-04-01
 categories: featured-skills
 ---
 
@@ -38,7 +38,7 @@ React는 기본적으로 단방향 데이터 흐름 구조를 가진다.
 
 이 문제를 해결하기 위해 React는 Context API를 제공한다.
 
-Context API의 가장 큰 장점은은,
+Context API의 가장 큰 장점은,
 
 - props drilling 문제 해결
 - React 내장 기능이라 별도 라이브러리가 필요 없음
@@ -241,7 +241,8 @@ case 'USER_LOGIN':
 
 ## Redux vs RTK: 보일러플레이트 코드
 
-> 보일러플레이트 코드
+> 보일러플레이트 코드:
+
 > 기능 자체보다 구조를 사용하기 위해 반복적으로 작성해야 하는 코드
 
 실무에서 처음 사용했던 건 기존 Redux였다.
@@ -400,7 +401,7 @@ state.value = 1;
 지금은 서버 상태 관리를 위해 tanstack query을 사용하고 있지만,
 예전 Redux에서는 비동기 처리를 위해 thunk 패턴을 많이 사용했다.
 
-### 기존 Redux 방식식
+### 기존 Redux 방식
 
 ```ts
 export const login = (data) => {
@@ -478,7 +479,7 @@ extraReducers: (builder) => {
 RTK에서는 pending, fulfilled, rejected을 자동 생성해준다.
 
 지금은 서버 상태 관리를 위해 TanStack Query를 더 많이 사용하지만
-RTK를 사용하면서 비동기 흐름과 로딩 상태 관리가 훨씬 명확해졌다고 느꼈다.
+Redux thunk에 비해 RTK를 사용하면서 비동기 흐름과 로딩 상태 관리가 훨씬 명확해졌다고 느꼈다.
 
 ---
 
