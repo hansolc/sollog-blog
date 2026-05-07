@@ -525,3 +525,8 @@ const selectedDate = useSelector((state: RootState) => state.calendar.selectedDa
 
 그리고 Redux를 사용한다면
 지금은 기존 Redux보다 RTK를 우선 고려하게 된다.
+
+## REF
+
+- [MVC vs Flux vs Redux: Which framework offers a better architecture?](https://www.turing.com/blog/mvc-architechture-vs-flux-vs-redux#_usage)
+- [Redux MobX Zustand Recoil Jotai 뭐가 이렇게 많아 - Context API 사용하면 되잖아?](https://www.jeong-min.com/58-react-state-management/#context-api%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EB%90%98%EC%9E%96%EC%95%84)
