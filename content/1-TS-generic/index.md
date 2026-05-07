@@ -234,4 +234,5 @@ logThings<number[]>('Bob', 4, '9', 3);
 
 ## REf
 
-- [Understanding the types in JavaScript](https://learntypescript.dev/02/l1-js-types)
+- [MVC vs Flux vs Redux: Which framework offers a better architecture?](https://www.turing.com/blog/mvc-architechture-vs-flux-vs-redux#_usage)
+- [Redux MobX Zustand Recoil Jotai 뭐가 이렇게 많아 - Context API 사용하면 되잖아?](https://www.jeong-min.com/58-react-state-management/#context-api%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EB%90%98%EC%9E%96%EC%95%84)
