@@ -1,5 +1,5 @@
 ---
-emoji:
+emoji: 🧪
 title: Next.js App Router에서 MSW로 API 없이 개발 시작하기
 date: 2026-07-07
 categories: featured-skills
